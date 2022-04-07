@@ -16,9 +16,9 @@ public class C03_NestedForLoop {
                  // " j <=i " yapildi
                  // dikdortgen icinde " i<= "ve"j<= " ifadelerini
                  // "input1,input2 ve i gibi sirayla degisitirerek sglanir
-                 System.out.print((i*j) + " ");
+                 System.out.print((i*j)+" ");
              }              // (parantez icine "*" koyarsan hepsi degisir)
-             System.out.println("");
+             System.out.println(" ");
          }
     }
 }

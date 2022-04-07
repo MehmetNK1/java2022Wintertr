@@ -1,6 +1,8 @@
 package day18_nestedForLoop;
 
-public class C05_NestedForLoop {
+public class
+
+C05_NestedForLoop {
     public static void main(String[] args) {
 
         /*
