@@ -10,7 +10,7 @@ public class C01_Set {
         arrayiTekrarsizYazdir(arr);
     }
     private static void arrayiTekrarsizYazdir(Integer[] arr) {
-        Set<Integer> tekrarsizElementKumesi= new HashSet<>();
+        Set<Integer> tekrarsizElementKumesi= new HashSet<>();// set icine atilan elemanlarin ayni olanlari varsa ust uste yazar
         for (Integer each : arr
         ) {
             tekrarsizElementKumesi.add(each);

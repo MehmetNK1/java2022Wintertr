@@ -12,7 +12,7 @@ public class C03_RetainAll {
         set2.add(30);
         System.out.println(set1); // [20, 10]
         System.out.println(set2); // [20, 25, 10, 30]
-        System.out.println(set2.retainAll(set1)); // true
+        System.out.println(set2.retainAll(set1)); // true elementleri farkli olanlar varsa siler
         System.out.println(set1); // [20, 10]
         System.out.println(set2); // [20, 10]
     }
